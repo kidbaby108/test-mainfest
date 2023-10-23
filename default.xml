@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="linux"
+           fetch="ssh://192.168.3.5/home/git/exynos4412" />
+  <default revision="master"
+           remote="linux"
+           sync-j="1" />
+
+  <project path="kernel/linux-3.5.y" name="platform/kernel/linux-3.5.y" />
+  <project path="rootfs/rootfs" name="platform/rootfs/rootfs" />
+  <project path="uboot/uboot-2018.11" name="platform/uboot/uboot-2018.11" />
+  <project path="userdata/UartTest" name="platform/userdata/UartTest" />
+
+</manifest>
+
+
