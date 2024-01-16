@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="linux"
-           fetch="ssh://192.168.3.5/home/git/exynos4412" />
-  <default revision="master"
-           remote="linux"
-           sync-j="1" />
+  <remote name="origin" fetch="ssh://git@git.inner.vwdsso.com" review="git.inner.vwdsso.com"/>
+  
+  <default revision="dev"
+           remote="origin"
+           sync-j="8" />
 
-  <project path="kernel/linux-3.5.y" name="platform/kernel/linux-3.5.y" />
-  <project path="rootfs/rootfs" name="platform/rootfs/rootfs" />
-  <project path="uboot/uboot-2018.11" name="platform/uboot/uboot-2018.11" />
-  <project path="userdata/UartTest" name="platform/userdata/UartTest" />
+  <project path="oneapp-touch-point" name="oneapp-application/oneapp-touch-point" />
+  <project path="dssomobile-oneapp-app-account" name="cariad-dev/dssomobile-oneapp-app-account" revision="release/dssomobile_0.16.0_R236664A-dev" />
+  <project path="dssomobile-oneapp-app-main" name="cariad-dev/dssomobile-oneapp-app-main" revision="release/dssomobile_0.16.0_R236664A-dev" />
 
 </manifest>
-
 
