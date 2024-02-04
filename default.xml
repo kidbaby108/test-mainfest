@@ -2,7 +2,7 @@
 <manifest>
   <remote name="origin" fetch="ssh://git@git.inner.vwdsso.com" review="git.inner.vwdsso.com"/>
   
-  <default revision="dev"
+  <default revision="release/dssomobile_0.18.0_R240404A-uat-0.7.0"
            remote="origin"
            sync-j="8" />
 
@@ -18,9 +18,9 @@
   <project path="oneapp_basic_uis" name="oneapp-common/oneapp_basic_uis" />
   <project path="oneapp_basic_utils" name="oneapp-common/oneapp_basic_utils" />
   
-  <project path="dssomobile-oneapp-app-account" name="cariad-dev/dssomobile-oneapp-app-account" revision="release/dssomobile_0.18.0_R240404A-dev" />
-  <project path="dssomobile-oneapp-app-main" name="cariad-dev/dssomobile-oneapp-app-main" revision="release/dssomobile_0.18.0_R240404A-dev" />
-  <project path="dssomobile-oneapp-app-setting" name="cariad-dev/dssomobile-oneapp-app-setting" revision="release/dssomobile_0.18.0_R240404A-dev" />
+  <project path="dssomobile-oneapp-app-account" name="cariad-dev/dssomobile-oneapp-app-account" />
+  <project path="dssomobile-oneapp-app-main" name="cariad-dev/dssomobile-oneapp-app-main" />
+  <project path="dssomobile-oneapp-app-setting" name="cariad-dev/dssomobile-oneapp-app-setting" />
 
 </manifest>
 
