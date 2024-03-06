@@ -2,7 +2,7 @@
 <manifest>
   <remote name="origin" fetch="ssh://git@git.inner.vwdsso.com" review="git.inner.vwdsso.com"/>
   
-  <default revision="release/dssomobile_0.18.0_R240404A-uat-0.7.0"
+  <default revision="release/dssomobile_0.22.0_R240903A-uat-0.8.1"
            remote="origin"
            sync-j="8" />
 
